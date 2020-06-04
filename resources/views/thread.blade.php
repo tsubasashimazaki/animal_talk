@@ -28,6 +28,7 @@
 <!-- Vue表示用 -->
 <div id="app">
     <example-component></example-component>
+    <!-- <thread-component></thread-component> -->
 </div>
 
 <script src="{{ asset('/js/app.js') }}"></script>

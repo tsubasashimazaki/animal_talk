@@ -1940,8 +1940,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  //コンポーネントがエクスポートされた場合に存在する
   mounted: function mounted() {
     console.log('Component mounted.');
   }
@@ -37554,23 +37554,20 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("form", { staticClass: "text-center" }, [
         _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "exampleInputEmail1" } }, [
-            _vm._v("件名")
-          ]),
+          _c("label", { attrs: { for: "threadInputTitle" } }, [_vm._v("件名")]),
           _vm._v(" "),
           _c("input", {
             staticClass: "form-control",
             attrs: {
               type: "text",
-              id: "exampleInputEmail1",
-              "aria-describedby": "emailHelp",
+              id: "threadInputTitle",
               placeholder: "件名を入力してください"
             }
           })
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "exampleInputPassword1" } }, [
+          _c("label", { attrs: { for: "threadInputContent" } }, [
             _vm._v("本文")
           ]),
           _vm._v(" "),
@@ -37578,7 +37575,7 @@ var staticRenderFns = [
             staticClass: "form-control",
             attrs: {
               type: "text",
-              id: "exampleInputPassword1",
+              id: "threadInputContent",
               placeholder: "本日の出来事を入力してみよう"
             }
           })
@@ -49788,8 +49785,11 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  */
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+// ハイフン付きのケバブケースで命名したほうがいい？
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]); //コンポーネントオプションを期待とは？？？
+// Vue.component('thread-message', require('.components/ThreadMessage.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

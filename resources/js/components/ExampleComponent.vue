@@ -14,17 +14,16 @@
                <li><div class="threadMessage">こんにちは</div></li>
                <li><div class="threadMessage">こんにちは</div></li>
                <li><div class="threadMessage">こんにちは</div></li>
-              
            </ul>
        </div>
        <form class="text-center">
   <div class="form-group">
-    <label for="exampleInputEmail1">件名</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="件名を入力してください">
+    <label for="threadInputTitle">件名</label>
+    <input type="text" class="form-control" id="threadInputTitle" placeholder="件名を入力してください">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">本文</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="本日の出来事を入力してみよう">
+    <label for="threadInputContent">本文</label>
+    <input type="text" class="form-control" id="threadInputContent" placeholder="本日の出来事を入力してみよう">
   </div>
   <button type="submit" class="btn btn-primary text-center">こちらの内容で送信<i class="fas fa-paw"></i></button>
 </form>
@@ -32,7 +31,7 @@
 </template>
 
 <script>
-    export default {
+    export default { //コンポーネントがエクスポートされた場合に存在する
         mounted() {
             console.log('Component mounted.')
         }
