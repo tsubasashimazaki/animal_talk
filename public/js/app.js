@@ -1924,6 +1924,23 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37482,21 +37499,99 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
+    return _c("div", { attrs: { id: "thread" } }, [
+      _c("div", { staticClass: "thread-inner" }, [
+        _c("ul", [
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "threadMessage" }, [_vm._v("こんにちは")])
           ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("form", { staticClass: "text-center" }, [
+        _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "exampleInputEmail1" } }, [
+            _vm._v("件名")
+          ]),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "form-control",
+            attrs: {
+              type: "text",
+              id: "exampleInputEmail1",
+              "aria-describedby": "emailHelp",
+              placeholder: "件名を入力してください"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "exampleInputPassword1" } }, [
+            _vm._v("本文")
+          ]),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "form-control",
+            attrs: {
+              type: "text",
+              id: "exampleInputPassword1",
+              placeholder: "本日の出来事を入力してみよう"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-primary text-center",
+            attrs: { type: "submit" }
+          },
+          [_vm._v("こちらの内容で送信"), _c("i", { staticClass: "fas fa-paw" })]
+        )
       ])
     ])
   }

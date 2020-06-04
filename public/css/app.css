@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
-/* 追記 */
-
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -16933,8 +16931,6 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
-/* 追記 */
-
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -16955,8 +16951,6 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-/* 追記 */
-
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -16975,8 +16969,6 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
-
-/* 追記 */
 
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
@@ -16997,5 +16989,76 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/* 追記 */
+body {
+  background-color: #f6f0cc;
+}
+
+.bg-primary {
+  background-color: #f7c6bd !important;
+}
+
+#thread {
+  height: 70vh;
+  width: 100%;
+}
+
+#thread .thread-inner {
+  height: 60vh;
+  padding: 30px;
+  margin-bottom: 5rem;
+}
+
+#thread .threadMessage {
+  background-color: #fff;
+  color: #333;
+  width: 960px;
+  max-width: 100%;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 50px;
+  margin: 1rem auto;
+}
+
+#thread li {
+  list-style: none;
+}
+
+.nav-link {
+  margin-right: 3rem !important;
+  color: #fff !important;
+}
+
+.nav-var {
+  background-color: #efff !important;
+}
+
+.fas {
+  margin-left: 1rem;
+}
+
+form {
+  background-color: #e2eba3;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+form .form-group {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form .btn-primary {
+  margin: 2rem auto;
+  width: 80%;
+  font-size: 18px;
+  background-color: #f7c6bd;
+}
+
+form label {
+  padding-top: 1rem;
+}
+
+form input {
+  border-radius: 50px;
+}
 
